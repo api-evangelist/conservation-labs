@@ -1,8 +1,15 @@
 aid: conservation-labs
 name: Conservation Labs
-description: Conservation Labs is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Conservation Labs is a Pittsburgh-based smart water technology company, backed by
+  Techstars, Amazon, RET Ventures and SustainVC. Its flagship product, H2know, is a clamp-on
+  acoustic smart water monitor that measures a building's inbound pipe every second and uses
+  patented sound-detection technology and machine learning to translate those signals into
+  accurate water-flow estimates, leak alerts and water-usage insights delivered through a
+  companion mobile and web app. The company also offers Sustainable Machines, an edge-to-cloud
+  platform for machine condition monitoring and predictive maintenance. Conservation Labs
+  serves residential homes, commercial real estate, restaurants and hotels, and industrial
+  operators. As of this enrichment pass the company exposes a consumer-facing app but publishes
+  no public developer API, OpenAPI specification, SDKs, or webhook documentation.
 url: https://raw.githubusercontent.com/api-evangelist/conservation-labs/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +17,30 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Water
+- IoT
+- Smart Home
+- Sustainability
+- Leak Detection
+- Sensors
+- Predictive Maintenance
+image: https://conservationlabs.com/wp-content/uploads/2020/03/CL-Logo-Horizontal-Dark-Text-website-300-x-51.png
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +50,22 @@ maintainers:
 common:
 - type: Website
   url: https://conservationlabs.com/
+- type: Support
+  name: Knowledge Base
+  url: https://conservationlabs.com/index.php/knowledge-base/
+- type: TermsOfService
+  url: https://conservationlabs.com/index.php/terms-of-service/
+- type: PrivacyPolicy
+  url: https://conservationlabs.com/privacy
+- type: Login
+  name: Water Monitor App
+  url: https://watermonitorapp.com/
+- type: GitHubOrganization
+  url: https://github.com/conservation-labs
+- type: DomainSecurity
+  url: security/conservation-labs-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
